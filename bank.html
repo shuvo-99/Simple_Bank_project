@@ -17,7 +17,7 @@
             <h1 class="text-4xl mb-2">Deposit</h1>
             <h1 class="text-4xl">Tk 00</h1>
           </div>
-          <div class="bg-orange-600 rounded-md pl-5 py-8">
+          <div class="bg-orange-400 rounded-md pl-5 py-8">
             <h1 class="text-4xl mb-2">Withdraw</h1>
             <h1 class="text-4xl">Tk 00</h1>
           </div>
@@ -27,15 +27,40 @@
           </div>
         </div>
         <br />
-        <div class="grid grid-cols-2 gap-4 px-8 text-white">
-          <div class="bg-fuchsia-700 rounded-md pl-5 py-8">
-            <h1 class="text-4xl mb-2">Enter Amount to Deposit</h1>
-
-            <h1 class="text-4xl">Tk 00</h1>
+        <div class="grid grid-cols-2 gap-4 px-8">
+          <div class="bg-blue-800 rounded-md pl-5 py-8">
+            <h1 class="text-4xl mb-4 text-white">Enter Amount to Deposit</h1>
+            <input
+              class="w-9/12 rounded py-1"
+              type="text"
+              name=""
+              id="deposit_num"
+              placeholder="Enter the Amount"
+            />
+            <br />
+            <button
+              id="btn_deposit"
+              class="bg-amber-300 py-2 my-2 px-5 rounded"
+            >
+              Deposit
+            </button>
           </div>
-          <div class="bg-fuchsia-700 rounded-md pl-5 py-8">
-            <h1 class="text-4xl mb-2">Balance</h1>
-            <h1 class="text-4xl">Tk 00</h1>
+          <div class="bg-teal-700 rounded-md pl-5 py-8">
+            <h1 class="text-4xl mb-4 text-white">Enter Amount to Withdraw</h1>
+            <input
+              class="w-9/12 rounded py-1"
+              type="text"
+              name=""
+              id="withdraw_num"
+              placeholder="Enter the Amount"
+            />
+            <br />
+            <button
+              id="btn_withdraw"
+              class="bg-amber-300 py-2 my-2 px-5 rounded"
+            >
+              Withdraw
+            </button>
           </div>
         </div>
       </section>
